@@ -1,0 +1,57 @@
+.background {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.background-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+.hero {
+  height: 100%;
+  width: 100%;
+}
+
+.hero .content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+.hero .content h2 {
+  font-size: 56px;
+}
+.hero .content .highlight {
+  color: #fa2fb5;
+}
+.hero .content p {
+  font-size: 32px;
+}
+.content .btn {
+  margin: 25px;
+}
+.hero .content .buttons {
+  margin-top: 40px;
+}
+
+
+@media screen and (max-width:800px) {
+  .hero .content h2 {
+    font-size: 40px;
+  }
+  .hero .content .highlight {
+    color: #fa2fb5;
+  }
+  .hero .content p {
+    font-size: 20px;
+  }
+  .content .btn {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,50 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
   background: #080808;
 }
 
-h1, h4, p, a {
-  color: #F9F9F9;
+h1,
+h4,
+h2,
+p,
+a {
+  color: #f9f9f9;
   text-decoration: none;
 }
 ul {
   list-style: none;
-
 }
 
 .btn {
   padding: 12px 32px;
   font-size: 16px;
   text-transform: capitalize;
-  border: 1px solid #F9F9F9;
-  color: #F9F9F9;
+  border: 1px solid #fa2fb5;
+  color: #f9f9f9;
   cursor: pointer;
-  background: transparent;
+  background: #fa2fb5;
   transition: all 500ms ease-in-out;
 }
 
-.btn-about {
+.btn-contact {
   padding: 12px 32px;
   font-size: 16px;
   text-transform: capitalize;
-  border: 1px solid #FA2FB5;
-  color: #FA2FB5;
+  border: 1px solid #fa2fb5;
+  color: #fa2fb5;
   cursor: pointer;
+  transition: all 500ms ease-in-out;
 }
 
-.btn, .btn-about:hover {
-  background: #BD057E;
-  border: 1px solid #BD057E;
-  color: #F9F9F9;
+.btn:hover {
+  border: 1px solid #fa2fb5;
+  background: transparent;
+  color: #f9f9f9;
 }
-
-
-
+.btn-contact:hover {
+  background: #bd057e;
+  border: 1px solid #bd057e;
+  color: #f9f9f9;
+}
