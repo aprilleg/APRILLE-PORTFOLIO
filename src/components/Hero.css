@@ -25,11 +25,13 @@
 }
 .hero .content h2 {
   font-size: 56px;
+  color: #f9f9f9;
 }
 .hero .content .highlight {
   color: #fa2fb5;
 }
 .hero .content p {
+  color: #f9f9f9;
   font-size: 32px;
 }
 .content .btn {
@@ -50,8 +52,8 @@
   .hero .content p {
     font-size: 20px;
   }
-  .content .btn {
-    display: flex;
+  .btn, .btn-contact {
+    display: inline-block;
     justify-content: center;
   }
 }
